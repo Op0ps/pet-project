@@ -1,0 +1,177 @@
+[
+    {
+        "estateHash": "budynok-000-kyiv",
+        "estateID": 0,
+        "estateName": "Будинок у Києві",
+        "estatePart": 1,
+        "estateCaption": "Затишний будинок 250 м²",
+        "mainMiniImgFileName": "dom-v-stile-modern-oboi-4.jpg",
+        "statusType": 1,
+        "orderId": 1,
+        "estateScrollerDescription": "Будинок з ділянкою 10 соток",
+        "mainImgFileName": "dom-v-stile-modern-oboi-4.jpg",
+        "estateDescription": "Просторий двоповерховий будинок з гаражем та садом у передмісті Києва.",
+        "metaTitle": "Будинок у Києві — купити",
+        "metaDescription": "Продаж будинку 250 м² у Києві",
+        "metaKeywords": "будинок, Київ, купити будинок",
+        "statusCaption": "Продано",
+        "images": [
+            {
+                "photoId": 101,
+                "estateID": 0,
+                "orderId": 1,
+                "caption": "Фасад будинку",
+                "photoListImg": "dom-v-stile-modern-oboi-4.jpg",
+                "photoListMiniImg": "dom-v-stile-modern-oboi-4.jpg"
+            },
+            {
+                "photoId": 102,
+                "estateID": 0,
+                "orderId": 2,
+                "caption": "Вітальня",
+                "photoListImg": "dom-v-stile-modern-oboi-4.jpg",
+                "photoListMiniImg": "dom-v-stile-modern-oboi-4.jpg"
+            }
+        ]
+    },
+    {
+        "estateHash": "kvartyra-001-lviv",
+        "estateID": 1,
+        "estateName": "Квартира у Львові",
+        "estatePart": 1,
+        "estateCaption": "2-кімнатна квартира 80 м²",
+        "mainMiniImgFileName": "OIP (1).webp",
+        "statusType": 1,
+        "orderId": 2,
+        "estateScrollerDescription": "Квартира в центрі міста",
+        "mainImgFileName": "OIP (1).webp",
+        "estateDescription": "Світла квартира з ремонтом та панорамним видом на історичний центр Львова.",
+        "metaTitle": "Квартира у Львові — продаж",
+        "metaDescription": "2-кімнатна квартира 80 м² у центрі Львова",
+        "metaKeywords": "квартира, Львів, продаж квартири",
+        "statusCaption": "Продано",
+        "images": [
+            {
+                "photoId": 201,
+                "estateID": 1,
+                "orderId": 1,
+                "caption": "Кухня",
+                "photoListImg": "OIP (1).webp",
+                "photoListMiniImg": "OIP (1).webp"
+            },
+            {
+                "photoId": 202,
+                "estateID": 1,
+                "orderId": 2,
+                "caption": "Спальня",
+                "photoListImg": "OIP (1).webp",
+                "photoListMiniImg": "OIP (1).webp"
+            }
+        ]
+    },
+    {
+        "estateHash": "kottedzh-002-odesa",
+        "estateID": 2,
+        "estateName": "Котедж в Одесі",
+        "estatePart": 3,
+        "estateCaption": "Котедж 180 м² біля моря",
+        "mainMiniImgFileName": "OIP.webp",
+        "statusType": 0,
+        "orderId": 3,
+        "estateScrollerDescription": "Котедж з видом на море",
+        "mainImgFileName": "OIP.webp",
+        "estateDescription": "Сучасний котедж з терасою та басейном на узбережжі Одеси.",
+        "metaTitle": "Котедж в Одесі — купити",
+        "metaDescription": "Котедж 180 м² біля моря в Одесі",
+        "metaKeywords": "котедж, Одеса, море, купити",
+        "statusCaption": "",
+        "images": [
+            {
+                "photoId": 301,
+                "estateID": 2,
+                "orderId": 1,
+                "caption": "Вид на море",
+                "photoListImg": "OIP.webp",
+                "photoListMiniImg": "OIP.webp"
+            },
+            {
+                "photoId": 302,
+                "estateID": 2,
+                "orderId": 2,
+                "caption": "Басейн",
+                "photoListImg": "OIP.webp",
+                "photoListMiniImg": "OIP.webp"
+            }
+        ]
+    },
+    {
+        "estateHash": "kvartyra-003-lviv",
+        "estateID": 3,
+        "estateName": "Квартира у Картпатах",
+        "estatePart": 3,
+        "estateCaption": "2-кімнатна квартира 60 м²",
+        "mainMiniImgFileName": "OIP (1).webp",
+        "statusType": 0,
+        "orderId": 2,
+        "estateScrollerDescription": "Квартира в центрі міста",
+        "mainImgFileName": "OIP (1).webp",
+        "estateDescription": "Світла квартира з ремонтом та панорамним видом на історичний центр Львова.",
+        "metaTitle": "Квартира у Львові — продаж",
+        "metaDescription": "2-кімнатна квартира 80 м² у центрі Львова",
+        "metaKeywords": "квартира, Львів, продаж квартири",
+        "statusCaption": "",
+        "images": [
+            {
+                "photoId": 401,
+                "estateID": 3,
+                "orderId": 1,
+                "caption": "Кухня",
+                "photoListImg": "OIP (1).webp",
+                "photoListMiniImg": "OIP (1).webp"
+            },
+            {
+                "photoId": 402,
+                "estateID": 3,
+                "orderId": 2,
+                "caption": "Спальня",
+                "photoListImg": "OIP (1).webp",
+                "photoListMiniImg": "OIP (1).webp"
+            }
+        ]
+    },
+    {
+        "estateHash": "kvartyra-004-lviv",
+        "estateID": 4,
+        "estateName": "Квартира у Картпатах",
+        "estatePart": 3,
+        "estateCaption": "2-кімнатна квартира 60 м²",
+        "mainMiniImgFileName": "OIP (1).webp",
+        "statusType": 0,
+        "orderId": 2,
+        "estateScrollerDescription": "Квартира в центрі міста",
+        "mainImgFileName": "OIP (1).webp",
+        "estateDescription": "Світла квартира з ремонтом та панорамним видом на історичний центр Львова.",
+        "metaTitle": "Квартира у Львові — продаж",
+        "metaDescription": "2-кімнатна квартира 80 м² у центрі Львова",
+        "metaKeywords": "квартира, Львів, продаж квартири",
+        "statusCaption": "",
+        "images": [
+            {
+                "photoId": 401,
+                "estateID": 4,
+                "orderId": 1,
+                "caption": "Кухня",
+                "photoListImg": "OIP (1).webp",
+                "photoListMiniImg": "OIP (1).webp"
+            },
+            {
+                "photoId": 402,
+                "estateID": 4,
+                "orderId": 2,
+                "caption": "Спальня",
+                "photoListImg": "OIP (1).webp",
+                "photoListMiniImg": "OIP (1).webp"
+            }
+        ]
+    }
+]

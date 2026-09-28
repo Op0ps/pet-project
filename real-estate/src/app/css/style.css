@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+body {
+    background: #333;
+    background-image: url('/images/bg1.jpg');
+}
+
+header {
+    background: #d1d5dc;
+    background-image: url('/images/footer-bg.jpg');
+}
+
+footer {
+    background: #d1d5dc;
+    background-image: url('/images/footer-bg.jpg');
+}
