@@ -1,32 +1,25 @@
-import { Qoute } from '../entities/qoute/index';
-import { Author } from '../entities/autor/index';
-import type { IAuthor } from '../entities/autor/index';
-import type { IQoute } from '../entities/qoute/index';
+import { useEffect } from 'react';
+
+import { useAppDispatch } from '../app/store/hooks';
+import { Qoute } from '../features/qoute/Qoute';
+import { setQoute } from '../features/qoute/qouteSlice';
+import { setAuthor } from '../features/author/authorSlice';
+import { getRandomQoute } from '../shared/utils/getRandomInt';
 
 export function Home() {
-    const qoute: IQoute = {
-        id: 1,
-        authorId: 1,
-        text: 'Full pages or large parts of a page in nested routing.',
-        source: null,
-        createdAt: new Date(2026, 29, 9),
-        updatedAt: new Date(2026, 29, 9),
-    };
-    const author: IAuthor = {
-        id: 1,
-        name: 'Hrygorii',
-        bio: '',
-        bithDate: new Date(1889, 20, 4),
-        deathhDate: new Date(1945, 30, 4),
-        createdAt: new Date(2026, 29, 9),
-        updatedAt: new Date(2026, 29, 9),
-    };
+    const data = getRandomQoute();
+    const dispatch = useAppDispatch();
+
+    useEffect(() => {
+        dispatch(setQoute(data.qoute));
+        dispatch(setAuthor(data.author));
+    }, [dispatch, data]);
 
     return (
         <main>
+            <div>{/* Filter */}</div>
             <div>
-                <Qoute qoute={qoute} />
-                <Author author={author} />
+                <Qoute />
             </div>
         </main>
     );

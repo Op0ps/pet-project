@@ -5,7 +5,7 @@ export function Layout() {
         <div>
             <header>
                 <div>
-                    <img src="" alt="logo" />
+                    {/* <img src="" alt="logo" /> */}
                     <p>Logo</p>
                 </div>
             </header>
