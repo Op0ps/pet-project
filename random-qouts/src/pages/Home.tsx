@@ -1,18 +1,16 @@
 import { useEffect } from 'react';
-
+import { useLoaderData } from 'react-router';
 import { useAppDispatch } from '../app/store/hooks';
 import { Qoute } from '../features/qoute/Qoute';
 import { setQoute } from '../features/qoute/qouteSlice';
-import { setAuthor } from '../features/author/authorSlice';
-import { getRandomQoute } from '../shared/utils/getRandomInt';
+import type { IRandomQoute } from '../app/routes/home';
 
 export function Home() {
-    const data = getRandomQoute();
+    const data = useLoaderData<IRandomQoute>();
     const dispatch = useAppDispatch();
 
     useEffect(() => {
-        dispatch(setQoute(data.qoute));
-        dispatch(setAuthor(data.author));
+        dispatch(setQoute(data));
     }, [dispatch, data]);
 
     return (

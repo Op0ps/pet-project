@@ -5,12 +5,14 @@ export interface IQoute {
     id: number | null;
     text: string | null;
     authorId: number | null;
+    authorName: string | null;
     source: string | null;
 }
 
 const initialState: IQoute = {
     id: null,
     authorId: null,
+    authorName: null,
     source: null,
     text: null,
 };
@@ -24,6 +26,7 @@ export const qouteSlice = createSlice({
             state.authorId = action.payload.authorId;
             state.source = action.payload.source;
             state.text = action.payload.text;
+            state.authorName = action.payload.authorName;
         },
     },
 });

@@ -1,6 +1,8 @@
 import { createBrowserRouter } from 'react-router';
-import { Home } from '../../pages/index';
+import { Home, Details } from '../../pages/index';
 import { Layout } from '../../shared/ui';
+import { loaderHome } from './home';
+import { loaderDetails } from './details';
 
 export default createBrowserRouter([
     {
@@ -10,6 +12,12 @@ export default createBrowserRouter([
             {
                 index: true,
                 Component: Home,
+                loader: loaderHome,
+            },
+            {
+                path: 'details/:id',
+                Component: Details,
+                loader: loaderDetails,
             },
         ],
     },

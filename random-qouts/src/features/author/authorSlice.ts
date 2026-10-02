@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 
 export interface IAuthor {
+    id: string | null;
     name: string | null;
     bio: string | null;
     birthDay: string | null;
@@ -9,6 +10,7 @@ export interface IAuthor {
 }
 
 const initialState: IAuthor = {
+    id: null,
     name: null,
     bio: null,
     birthDay: null,
@@ -20,6 +22,7 @@ export const authorSlice = createSlice({
     name: 'author',
     reducers: {
         setAuthor: (state, action: PayloadAction<IAuthor>) => {
+            state.id = action.payload.id;
             state.bio = action.payload.bio;
             state.birthDay = action.payload.birthDay;
             state.deathDate = action.payload.deathDate;
