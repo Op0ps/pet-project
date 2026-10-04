@@ -3,14 +3,16 @@ import { useLoaderData } from 'react-router';
 import { useAppDispatch } from '../app/store/hooks';
 import { Qoute } from '../features/qoute/Qoute';
 import { setQoute } from '../features/qoute/qouteSlice';
-import type { IRandomQoute } from '../app/routes/home';
+import type { IQoute } from '../features/qoute/qouteSlice';
 
 export function Home() {
-    const data = useLoaderData<IRandomQoute>();
+    const data = useLoaderData<IQoute | undefined>();
     const dispatch = useAppDispatch();
 
     useEffect(() => {
-        dispatch(setQoute(data));
+        if (data) {
+            dispatch(setQoute(data));
+        }
     }, [dispatch, data]);
 
     return (

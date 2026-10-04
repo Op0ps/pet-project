@@ -2,19 +2,20 @@ import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 
 export interface IAuthor {
-    id: string | null;
-    name: string | null;
-    bio: string | null;
+    id: number;
+    name: string;
+    bio: string;
     birthDay: string | null;
     deathDate: string | null;
 }
+type IInitialState = Partial<IAuthor>;
 
-const initialState: IAuthor = {
-    id: null,
-    name: null,
-    bio: null,
-    birthDay: null,
-    deathDate: null,
+const initialState: IInitialState = {
+    id: undefined,
+    name: undefined,
+    bio: undefined,
+    birthDay: undefined,
+    deathDate: undefined,
 };
 
 export const authorSlice = createSlice({

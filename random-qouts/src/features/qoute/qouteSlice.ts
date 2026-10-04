@@ -2,19 +2,20 @@ import { createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 
 export interface IQoute {
-    id: number | null;
-    text: string | null;
-    authorId: number | null;
-    authorName: string | null;
-    source: string | null;
+    id: number;
+    text: string;
+    authorId: number | undefined;
+    authorName: string | undefined;
+    source: string;
 }
+type IInitialState = Partial<IQoute>;
 
-const initialState: IQoute = {
-    id: null,
-    authorId: null,
-    authorName: null,
-    source: null,
-    text: null,
+const initialState: IInitialState = {
+    id: undefined,
+    authorId: undefined,
+    authorName: undefined,
+    source: undefined,
+    text: undefined,
 };
 
 export const qouteSlice = createSlice({
