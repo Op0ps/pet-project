@@ -16,8 +16,8 @@ export function Details() {
     }, [dispatch, data]);
 
     return (
-        <main>
+        <>
             <Author />
-        </main>
+        </>
     );
 }

@@ -16,11 +16,11 @@ export function Home() {
     }, [dispatch, data]);
 
     return (
-        <main>
+        <>
             <div>{/* Filter */}</div>
             <div>
                 <Qoute />
             </div>
-        </main>
+        </>
     );
 }

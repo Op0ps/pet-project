@@ -1,18 +1,17 @@
 import { Outlet } from 'react-router';
+import { Header } from './Header';
+import { Footer } from './Footer';
 
 export function Layout() {
     return (
-        <div>
-            <header>
-                <div>
-                    {/* <img src="" alt="logo" /> */}
-                    <p>Logo</p>
-                </div>
-            </header>
+        <div className="min-h-screen flex flex-col">
+            <Header />
 
-            <Outlet />
+            <main className="flex-1 flex justify-center items-center bg-amber-400">
+                <Outlet />
+            </main>
 
-            <footer>information current site</footer>
+            <Footer />
         </div>
     );
 }
