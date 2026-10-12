@@ -16,11 +16,8 @@ export function Home() {
     }, [dispatch, data]);
 
     return (
-        <>
-            <div>{/* Filter */}</div>
-            <div>
-                <Qoute />
-            </div>
-        </>
+        <main className="flex-1 flex justify-center items-center bg-amber-400">
+            <Qoute />
+        </main>
     );
 }

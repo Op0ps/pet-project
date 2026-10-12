@@ -16,8 +16,8 @@ export function Details() {
     }, [dispatch, data]);
 
     return (
-        <>
+        <main className="flex flex-1 justify-center bg-amber-400">
             <Author />
-        </>
+        </main>
     );
 }

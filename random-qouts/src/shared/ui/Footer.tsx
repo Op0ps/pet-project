@@ -1,18 +1,16 @@
 export function Footer() {
     return (
-        <footer className="flex justify-center bg-amber-600 py-4">
-            <div className="flex gap-4">
-                <div className="flex">
-                    <a href="tel:+380 66 000 00 00">+380 66 000 00 00</a>
-                </div>
-                
-                <div className="flex">
-                    <a href="tel:+380 66 000 00 00">+380 66 000 00 00</a>
-                </div>
+        <footer className="flex justify-center py-4 gap-4 bg-amber-600">
+            <div>
+                <a href="tel:+380 66 000 00 00">+380 66 000 00 00</a>
+            </div>
 
-                <div className="flex">
-                    <a href="tel:+380 66 000 00 00">+380 66 000 00 00</a>
-                </div>
+            <div>
+                <a href="tel:+380 66 000 00 00">+380 66 000 00 00</a>
+            </div>
+
+            <div>
+                <a href="tel:+380 66 000 00 00">+380 66 000 00 00</a>
             </div>
         </footer>
     );
