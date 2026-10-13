@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
-import authorReducer from '../../features/author/authorSlice';
-import qouteReducer from '../../features/qoute/qouteSlice';
+import authorsReducer from '../../features/author/authorsSlice';
+import quotesReducer from '../../features/quote/quotesSlice';
 
 const store = configureStore({
     reducer: {
-        author: authorReducer,
-        qoute: qouteReducer,
+        authors: authorsReducer,
+        quotes: quotesReducer,
     },
 });
 

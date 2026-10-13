@@ -1,13 +1,14 @@
 import authorsJson from '../../data/author.json';
 import qoutesJson from '../../data/qoutes.json';
-import type { AuthorsJson, Author } from './Author';
-import type { QoutesJson } from './Qoute';
+import type { AuthorsJson } from '../features/author/IAuthor';
+import type { QuotesJson } from '../features/quote/IQuote';
 
-const authors = new Map<number, Author>();
+// const authors: AuthorIndex = new Map();
 
-// O(n) один нраз при загрузке.
-for (const author of authorsJson as AuthorsJson) {
-    authors.set(author.id, author);
-}
-export const qoutes = qoutesJson as QoutesJson;
-export { authors };
+// // O(n) один нраз при загрузке.
+// for (const author of authorsJson as AuthorsJson) {
+//     authors.set(author.id, author);
+// }
+// export { authors };
+export const authors = authorsJson as AuthorsJson;
+export const quotes = qoutesJson as QuotesJson;

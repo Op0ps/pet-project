@@ -2,7 +2,6 @@ import { createBrowserRouter } from 'react-router';
 import { Home, Details, QuoteEditor } from '../../pages/index';
 import { Layout } from '../../shared/ui';
 import { loaderHome } from './home';
-import { loaderDetails } from './details';
 
 export default createBrowserRouter([
     {
@@ -17,7 +16,6 @@ export default createBrowserRouter([
             {
                 path: 'details/:id',
                 Component: Details,
-                loader: loaderDetails,
             },
             {
                 path: 'quote-editor',
